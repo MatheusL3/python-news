@@ -5,3 +5,9 @@ print('Seu nome contem {} letras ao todo, e {} sem contar espaços'.format(len(n
 print('A quantidade de letras do primeiro nome é {}'.format(len(nome.split()[0])))
 print('O primeiro e o ultimo nome é {} {}'.format(nome.split()[0],nome.split()[len(nome.split())-1]))
 print('Seu nome tem Silva? {}'.format("SIM" if (('silva' in nome.lower()) == True) else "NÃO"))
+if('silva' in nome.lower()) == True:
+    print('seu nome tem Silva sim')
+elif('lopes' in nome.lower()) == True:
+    print("o seu nome tem Lopes")
+else:
+    print("seu nome não tem silva nem lopes")
